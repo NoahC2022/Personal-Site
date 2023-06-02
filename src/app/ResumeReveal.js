@@ -21,7 +21,7 @@ function ResumeReveal() {
     return (
         <div className="flex justify-center items-center h-screen">
           <Document
-            file={pdfUrl}
+            file={'https://pspdfkit.com/downloads/pspdfkit-web-demo.pdf'}
             onLoadSuccess={onDocumentLoadSuccess}
             options={{ workerSrc: '/pdf.worker.js' }}
           >

@@ -15,7 +15,7 @@ const SideBar = ({ router }) => {
       <div className="sidebar-link" onClick={() => handleNavigation('/')}>
         <SideBarIcon icon={<AiFillHome size="28" />} text="Home" />
       </div>
-      <div className="sidebar-link" onClick={() => handleNavigation('/movies')}>
+      <div className="sidebar-link" onClick={() => window.open('https://github.com/NoahC2022/Top-Flicks')}>
         <SideBarIcon icon={<BiCameraMovie size="28" />} text="Top Movies" />
       </div>
       <div className="sidebar-link" onClick={() => handleNavigation('/resume')}>
